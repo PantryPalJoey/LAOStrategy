@@ -1,0 +1,17 @@
+{
+  "name": "lao-strategy",
+  "version": "1.0.0",
+  "description": "LAO Strategy Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "aos": "^2.3.4"
+  }
+} 
